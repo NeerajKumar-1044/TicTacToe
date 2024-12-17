@@ -98,7 +98,7 @@ function App() {
         {grid.map((cell, index) => (
           <div
             key={index}
-            className="border-2 border-gray-600 w-32 h-32 flex items-center justify-center text-6xl cursor-pointer bg-gray-900 text-teal-400 hover:bg-gray-700 transition"
+            className="border-2 border-gray-600 w-20 sm:w-32 h-20 sm:h-32 flex items-center justify-center text-6xl cursor-pointer bg-gray-900 text-teal-400 hover:bg-gray-700 transition"
             onClick={() => HandleClick(index)}
           >
             {cell !== 'E' ? cell : ""}
